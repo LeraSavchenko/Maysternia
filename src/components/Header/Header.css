@@ -1,0 +1,49 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+@import '../variables.css';
+
+:root {
+  --brand-color: #61dafb;
+}
+
+.root {
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  color: black;
+}
+
+.container {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.brand {
+  text-decoration: none;
+  font-size: 36px;
+  font-family: "Lora";
+  width: 40%;
+}
+
+.contactsMessage {
+  font-size: 0.7em;
+}
+
+.contactButton {
+  text-decoration: none;
+  font-weight: bolder;
+  line-height: 1;
+}
+
+.button {
+  border: 1px solid black;
+  padding: 10px 30px;
+}

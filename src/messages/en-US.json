@@ -1,0 +1,35 @@
+[
+  {
+    "id": "header.brand",
+    "description": "Brand name displayed in header",
+    "defaultMessage": "Майстерня",
+    "message": "",
+    "files": [
+      "src/components/Header/Header.js"
+    ]
+  },
+  {
+    "id": "header.contact.button",
+    "defaultMessage": "Зв'язатись з нами",
+    "message": "",
+    "files": [
+      "src/components/Header/Header.js"
+    ]
+  },
+  {
+    "id": "header.contacts.message",
+    "defaultMessage": "Доставка по Україні",
+    "message": "",
+    "files": [
+      "src/components/Header/Header.js"
+    ]
+  },
+  {
+    "id": "header.contacts.phone",
+    "defaultMessage": "+38 066 445 59 00",
+    "message": "",
+    "files": [
+      "src/components/Header/Header.js"
+    ]
+  }
+]
