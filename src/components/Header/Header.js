@@ -47,12 +47,12 @@ class Header extends React.Component {
             <span className={s.contactsMessage}><FormattedMessage {...messages.contactsMessage} /></span> 
           </div>
       
-          <div className={s.button}>
-            <Link className={s.contactButton} to="/">
-              <FormattedMessage {...messages.contactButton} />
-            </Link>
-          </div>
-      
+          <Link className={s.contactButton} to="/">
+            <div className={s.button}>
+              <FormattedMessage {...messages.contactButton} />   
+            </div>
+          </Link>
+       
           <LanguageSwitcher />
         </div>
       </div>
