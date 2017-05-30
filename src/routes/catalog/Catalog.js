@@ -11,6 +11,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Catalog.css';
+import About from '../home/aboutUs';
 
 class Catalog extends React.Component {
   static propTypes = {
@@ -22,7 +23,7 @@ class Catalog extends React.Component {
       <div className={s.root}>
         <div className={s.container}>
           <h1>{this.props.title}</h1>
-          <p>...</p>
+          <About />
         </div>
       </div>
     );
