@@ -16,15 +16,15 @@ class Order extends React.Component {
     return (
       <div className={s.root}>
         <div className={s.container}>
-          <a
-            className={s.link}
-            href="https://gitter.im/kriasoft/react-starter-kit"
-          >Ask a question</a>
-          <span className={s.spacer}>|</span>
-          <a
-            className={s.link}
-            href="https://github.com/kriasoft/react-starter-kit/issues/new"
-          >Report an issue</a>
+          <h2>Виготовимо наступний шедевр разом</h2>
+          <h6>Зв'яжіться з нами та дізнайтесь більше</h6>
+          <div className={s.survey}>
+            <input type="text" placeholder="Ім'я"></input>
+            <input type="text" placeholder="Телефон"></input>
+            <input type="text" placeholder="E-mail"></input>
+            <textarea rows="3" placeholder="Ваша ідея або питання"></textarea>
+            <button className={s.button}>Зв'язатись</button>
+          </div>
         </div>
       </div>
     );

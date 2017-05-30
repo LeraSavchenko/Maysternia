@@ -10,38 +10,44 @@
 @import '../variables.css';
 
 .root {
-  background: #333;
-  color: #fff;
 }
 
 .container {
-  margin: 0 auto;
+  display: inline-flex;
+  justify-content: center;
+  margin: 50px auto;
   padding: 20px 15px;
-  max-width: var(--max-content-width);
-  text-align: center;
+  width: 80%;
 }
 
-.text {
-  color: rgba(255, 255, 255, 0.5);
+img {
+  max-width: 550px;
+  max-height: 270px;
+  margin-right: 30px;
 }
 
-.spacer {
-  color: rgba(255, 255, 255, 0.3);
+h3 {
+  font-family: "Lora";
+  font-size: 1.6em;
+  margin: 0 0 15px;
 }
 
-.text,
-.link {
-  padding: 2px 5px;
-  font-size: 1em;
+p {
+  font-size: 1.1em;
+  font-family: "Lora";
+  margin: 0;
 }
 
-.link,
-.link:active,
-.link:visited {
-  color: rgba(255, 255, 255, 0.6);
+.address {
+  font-size: 0.8em;
+}
+
+.navButton {
   text-decoration: none;
 }
 
-.link:hover {
-  color: rgba(255, 255, 255, 1);
+.button {
+  border-bottom: 2px solid #3C3C43;
+  padding: 5px 0;
+  margin-bottom: 5px;
 }
