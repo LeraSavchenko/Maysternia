@@ -11,7 +11,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Catalog.css';
-import About from '../../components/About/aboutUs';
+import About from '../../components/About/About';
 
 class Catalog extends React.Component {
   static propTypes = {

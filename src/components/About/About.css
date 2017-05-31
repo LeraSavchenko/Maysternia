@@ -1,0 +1,39 @@
+@import '../variables.css';
+
+.blockstyle {
+  width: 100%;
+  color: black;
+  height: 600px;
+  display: flex;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.textblock {
+  padding-left: 20px;
+  flex-grow: 1;
+  overflow: auto;
+  align-self: stretch;
+}
+
+.inline {
+  display: flex;
+}
+
+.link {
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.underlined {
+  border-bottom: 2px solid #3C3C43;
+  padding: 5px 0;
+}
+
+.grey {
+  color: grey;
+}
+
+p {
+  padding-bottom: 10px;
+}

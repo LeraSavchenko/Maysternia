@@ -16,7 +16,7 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import newsQuery from './news.graphql';
 import s from './Home.css';
 import Logo from '../../components/Logo/Logo';
-import About from '../../components/About/aboutUs';
+import About from '../../components/About/About';
 
 class Home extends React.Component {
   static propTypes = {

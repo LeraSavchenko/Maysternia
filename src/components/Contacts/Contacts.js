@@ -26,22 +26,16 @@ class Contacts extends React.Component {
             <span className={s.address}>м. Мукачево, вул. Переяславська, 1</span></p>
       
             
-            <a className={s.navButton} to="/">
-              <div className={s.button}>
-                <p>Каталог продукції</p>   
-              </div>
+            <a className={s.link} to="/">
+              <div className={s.underlined}>Каталог продукції</div>
             </a>
       
-            <a className={s.navButton} to="/">
-              <div className={s.button}>
-                <p>Про нас</p>   
-              </div>
+            <a className={s.link} to="/">
+              <div className={s.underlined}>Про нас</div>
             </a>
       
-            <a className={s.navButton} to="/">
-              <div className={s.button}>
-                <p>Наші роботи</p>   
-              </div>
+            <a className={s.link} to="/">
+              <div className={s.underlined}>Наші роботи</div>
             </a>
           </div>
         </div>
