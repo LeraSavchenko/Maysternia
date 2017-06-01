@@ -18,7 +18,7 @@ class Contacts extends React.Component {
     return (
       <div className={s.root}>
         <div className={s.container}>
-          <img src={mapUrl} alt="map" />
+          <img className={s.mapImage} src={mapUrl} alt="map" />
       
           <div className={s.contents}>
             <h3>Контакти</h3>

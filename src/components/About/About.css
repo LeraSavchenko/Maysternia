@@ -3,17 +3,19 @@
 .blockstyle {
   width: 100%;
   color: black;
-  height: 600px;
   display: flex;
-  align-content: center;
+  justify-content: center;
   margin: 0 auto;
 }
 
+.aboutImage {
+  max-height: 530px;
+  width: auto;
+}
+
 .textblock {
-  padding-left: 20px;
-  flex-grow: 1;
-  overflow: auto;
-  align-self: stretch;
+  padding-left: 40px;
+  font-size: 20px;
 }
 
 .inline {
@@ -31,9 +33,13 @@
 }
 
 .grey {
-  color: grey;
+  color: #4F4F4F;
+  font-size: 48px;
+  font-family: 'Lora';
+  font-weight: bold;
 }
 
 p {
   padding-bottom: 10px;
+  line-height: 1.42em;
 }

@@ -11,7 +11,7 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import Catalog from './Catalog';
 
-const title = 'Catalog';
+const title = 'Каталог продукції';
 
 export default {
 
@@ -19,7 +19,7 @@ export default {
 
   action() {
     return {
-      title,
+      title: 'Каталог',
       component: <Layout><Catalog title={title} /></Layout>,
     };
   },

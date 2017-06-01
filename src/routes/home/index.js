@@ -17,7 +17,7 @@ export default {
 
   action() {
     return {
-      title: 'React Starter Kit',
+      title: 'Майстерня',
       component: <Layout><Home /></Layout>,
     };
   },

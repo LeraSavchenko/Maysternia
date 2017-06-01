@@ -5,6 +5,10 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { setLocale } from '../../actions/intl';
 
+const position = {
+  marginTop: '20px',
+};
+
 function LanguageSwitcher({ currentLocale, availableLocales, setLocale }) {
   const isSelected = locale => locale === currentLocale;
   const localeDict = {
@@ -13,7 +17,7 @@ function LanguageSwitcher({ currentLocale, availableLocales, setLocale }) {
   };
   const localeName = locale => localeDict[locale] || locale;
   return (
-    <div>
+    <div style={position}>
       {availableLocales.map(locale => (
         <span key={locale}>
           {isSelected(locale) ? (
