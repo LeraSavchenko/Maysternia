@@ -6,7 +6,7 @@ import { connect } from 'react-redux';
 import { setLocale } from '../../actions/intl';
 
 const position = {
-  marginTop: '20px',
+  marginTop: '15px',
 };
 
 function LanguageSwitcher({ currentLocale, availableLocales, setLocale }) {

@@ -15,11 +15,12 @@
 
 .textblock {
   padding-left: 40px;
-  font-size: 20px;
+  font: 18px "Open Sans";
 }
 
 .inline {
   display: flex;
+  margin-top: 10px;
 }
 
 .link {
@@ -30,6 +31,12 @@
 .underlined {
   border-bottom: 2px solid #3C3C43;
   padding: 5px 0;
+}
+
+.underlined:hover,
+.underlined:active {
+  border-bottom-color: darkred;
+  color: darkred;
 }
 
 .grey {

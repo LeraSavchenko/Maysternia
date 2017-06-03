@@ -9,8 +9,24 @@
 
 @import '../variables.css';
 
-:root {
-  --brand-color: #61dafb;
+@media screen and (max-width: 860px) {
+  .contacts,
+  .contactButton {
+    display: none;
+  }
+  
+  .hamburger {
+    width: 15%;
+    height: inherit;
+  }
+  
+  .hamburgerBar {
+    height: 3px;
+    background-color: black;
+    width: 80%;
+    margin: 5px auto;
+  }
+
 }
 
 .root {
@@ -53,4 +69,10 @@
 .button {
   border: 1px solid black;
   padding: 15px 30px;
+}
+
+.button:active,
+.button:hover {
+  background-color: #3C3C43;
+  color: white;
 }

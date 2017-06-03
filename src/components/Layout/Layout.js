@@ -15,7 +15,7 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import normalizeCss from 'normalize.css';
 import s from './Layout.css';
 import Order from '../Order';
-import Contacts from '../Contacts';
+import Footer from '../Footer';
 
 class Layout extends React.Component {
   static propTypes = {
@@ -27,7 +27,7 @@ class Layout extends React.Component {
       <div>
         {this.props.children}
         <Order />
-        <Contacts />
+        <Footer />
       </div>
     );
   }

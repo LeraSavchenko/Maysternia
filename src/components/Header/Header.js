@@ -54,6 +54,12 @@ class Header extends React.Component {
           </Link>
        
           <LanguageSwitcher />
+      
+          <div className={s.hamburger}>
+            <div className={s.hamburgerBar}></div>
+            <div className={s.hamburgerBar}></div>
+            <div className={s.hamburgerBar}></div>
+          </div>
         </div>
       </div>
     );

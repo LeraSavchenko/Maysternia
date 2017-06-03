@@ -9,6 +9,65 @@
 
 @import '../../components/variables.css';
 
+h1 {
+  font: 48px 'Lora';
+  font-weight: bold;
+}
+
+.title {
+  font: 20px 'Open Sans';
+  font-family: sans-serif;
+}
+
+.navigation p,
+.navigation a {
+  font: 16px "Open Sans";
+  font-weight: bolder;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.navigation a:hover,
+.navigation a:active {
+  color: darkred;
+}
+
+@media screen and (max-width: 860px) {
+  .root {
+    width: 480px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  .divider {
+    display: none;
+  }
+
+  .title {
+    width: 100%;
+  }
+  
+  .navigation {
+    overflow-x: scroll;
+    display: inline-flex;
+  }
+  
+  .navigation a,
+  .navigation p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  
+  .decorGroup,
+  .decorGroup img,
+  .archImages img,
+  .gardeningImg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 861px) {
 .root {
   padding-left: 20px;
   padding-right: 20px;
@@ -20,25 +79,78 @@
   max-width: var(--max-content-width);
 }
 
-h1 {
-  font: 48px 'Lora';
-  font-weight: bold;
-}
-
 .topic {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  clear: both;
 }
 
 .title {
   width: 25%;
-  padding: 5px 130px 0 0;
-  font: 24px 'Open Sans' sans-serif;
+  padding-top: 5px;
 }
 
 .divider {
   margin: auto 0;
-  width: 75%;
+  width: 65%;
   height: 1px;
   background-color: black;
+}
+
+.navigation {
+  width: 50%;
+  margin-left: 35%;
+  display: flex;
+}
+
+.decorImages,
+.archImages {
+  width: 65%; 
+  float: right;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.decorGroup,
+.archImages img {
+  height: 100%;
+}
+
+.decorGroup:nth-child(1) {
+  width: 31%;
+}
+
+.decorGroup:nth-child(2){
+  width: 20%;
+}
+
+.decorGroup:nth-child(2) img{
+  width: 100%;
+}
+
+.decorGroup:nth-child(3) {
+  width: 42%;
+}
+
+.decorGroup:nth-child(3) img{
+  width: 100%;
+}
+
+.archImages img:nth-child(1) {
+  width: 24%;
+}
+
+.archImages img:nth-child(2){
+  width: 32%;
+}
+
+.archImages img:nth-child(3) {
+  width: 40%;
+}
+
+.gardeningImg {
+  width: 65%;
+  float: right;
+  margin-bottom: 100px;
+}
 }
