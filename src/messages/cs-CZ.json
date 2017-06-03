@@ -14,7 +14,7 @@
   {
     "id": "header.brand",
     "defaultMessage": "Майстерня",
-    "message": "Vaše firma",
+    "message": "Мастерская",
     "description": "Brand name displayed in header",
     "files": [
       "src/components/Header/Header.js"

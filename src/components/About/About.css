@@ -1,25 +1,58 @@
 @import '../variables.css';
 
-.blockstyle {
-  width: 100%;
-  color: black;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
+@media screen and (max-width: 860px) {
+  .blockstyle {
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+  }
+  
+  .aboutImage {
+    max-width: 480px;
+    width: 100%;
+    max-height: 320px;
+    height: auto;
+    margin-top: 50px;
+  }
+  
+  .link {
+    display: block;
+  }
+  
+  .underlined {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
 }
 
-.aboutImage {
-  max-height: 530px;
-  width: auto;
+@media screen and (min-width: 861px) {
+  .blockstyle {
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .aboutImage {
+    max-height: 530px;
+    width: auto;
+  }
+  
+  .textblock {
+    padding-left: 40px;
+  }
+  
+  .inline {
+    display: flex;
+  }
 }
 
 .textblock {
-  padding-left: 40px;
   font: 18px "Open Sans";
 }
 
 .inline {
-  display: flex;
   margin-top: 10px;
 }
 

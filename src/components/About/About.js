@@ -16,12 +16,21 @@ const Paragraph = [
   },
 ]
 
+const Buttons = [
+  {
+    name: 'Детальніше'
+  },
+  {
+    name: 'Переглянути деталі'
+  },
+]
+
 class About extends React.Component {
   render() {
     return (
       <div className={s.blockstyle}>
        
-        <img className={s.aboutImage} src={aboutUrl} alt="about.png" />
+        <img className={s.aboutImage} src={aboutUrl} alt="sculpture" />
         
         <div className={s.textblock}>
           <h1 className={s.grey}>Про нас</h1>
@@ -32,9 +41,11 @@ class About extends React.Component {
           }
 
           <div className={s.inline}>
-            <Link to="/catalog" className={s.link}><div className={s.underlined}>Детальніше</div></Link>
-
-            <Link to="/catalog" className={s.link}><div className={s.underlined}>Переглянути деталі</div></Link>
+            {
+              Buttons.map(elem =>
+                <Link to="/catalog" className={s.link}><div className={s.underlined}>{elem.name}</div></Link>
+              )
+            }
           </div>
         </div>
       </div>

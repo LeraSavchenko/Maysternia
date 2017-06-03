@@ -1,5 +1,3 @@
-/* eslint-disable no-shadow */
-
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
@@ -16,22 +14,20 @@ function LanguageSwitcher({ currentLocale, availableLocales, setLocale }) {
     'cs-CZ': 'РУС',
   };
   const localeName = locale => localeDict[locale] || locale;
+  
   return (
     <div style={position}>
       {availableLocales.map(locale => (
         <span key={locale}>
           {isSelected(locale) ? (
             <span>{localeName(locale)}</span>
-          ) : (
-            // github.com/yannickcr/eslint-plugin-react/issues/945
-            // eslint-disable-next-line react/jsx-indent
+          ) 
+          : (   
             <a
-              href={`?lang=${locale}`}
-              onClick={(e) => {
+              href={`?lang=${locale}`} onClick={(e) => {
                 setLocale({ locale });
                 e.preventDefault();
-              }}
-            >{localeName(locale)}</a>
+              }} > {localeName(locale)}</a>
           )}
           {' '}
         </span>

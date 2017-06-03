@@ -1,11 +1,11 @@
 import React from 'react';
 
-
 const blockstyle = {
   width: '100%',
   color: 'white',
   height: '600px',
 };
+
 const center = {
   margin: 'auto 0',
   textAlign: 'center',

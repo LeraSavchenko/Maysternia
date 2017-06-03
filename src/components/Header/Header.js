@@ -1,12 +1,3 @@
-/**
- * React Starter Kit (https://www.reactstarterkit.com/)
- *
- * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.txt file in the root directory of this source tree.
- */
-
 import React from 'react';
 import { defineMessages, FormattedMessage } from 'react-intl';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
@@ -53,13 +44,13 @@ class Header extends React.Component {
             </div>
           </Link>
        
-          <LanguageSwitcher />
+          <span className={s.lang}><LanguageSwitcher /></span>
       
-          <div className={s.hamburger}>
+          <Link className={s.hamburger} to="/">
             <div className={s.hamburgerBar}></div>
             <div className={s.hamburgerBar}></div>
             <div className={s.hamburgerBar}></div>
-          </div>
+          </Link>
         </div>
       </div>
     );

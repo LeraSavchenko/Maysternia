@@ -1,0 +1,39 @@
+@import '../../../components/variables.css';
+
+@media screen and (max-width: 860px) {
+  .archImages img {
+    margin-bottom: 12px;
+  }
+  
+  .archImages,
+  .archImages img {
+    max-width: 480px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 861px) {
+  .archImages {
+    width: 65%; 
+    float: right;
+    display: inline-flex;
+    justify-content: space-between;
+  }
+
+  .archImages img {
+    height: 100%;
+  }
+
+  .archImages img:nth-child(1) {
+    width: 24%;
+  }
+
+  .archImages img:nth-child(2){
+    width: 32%;
+  }
+
+  .archImages img:nth-child(3) {
+    width: 40%;
+  }
+}
