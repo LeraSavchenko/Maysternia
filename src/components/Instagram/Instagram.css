@@ -1,0 +1,56 @@
+@import '../Header/Header.css';
+
+.forTitle {
+  text-align: center;
+}
+
+h1 {
+  font: 48px 'Lora';
+  font-weight: bold;
+  color: #4F4F4F;
+}
+
+p {
+  font: 20px 'Open Sans';
+  font-family: sans-serif;
+}
+.forGallery {
+  text-align: center;
+}
+img {
+  margin-bottom: 7px;
+}
+
+.gallery {
+  line-height: 10px;
+  word-spacing: 10px;
+}
+
+.inLine {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.button {
+  margin: 0 auto;
+  text-align: center;
+  word-spacing: 1px;
+  width: 190px;
+}
+
+.instagram {
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 860px) {
+  .inLine {
+    flex-direction: column;
+  }
+
+  .forGallery img {
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+  }
+}

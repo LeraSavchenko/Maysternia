@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './FiveGallery.css';
 
@@ -40,14 +39,14 @@ class FiveGallery extends React.Component {
         <div className={s.navigation}>
           <p>Вид каменю:</p>
             {
-              Nav.map(elem => 
+              Nav.map(elem =>
                 <Link to="/catalog" activeStyle={{ color: 'darkred' }}>{elem.text}</Link>
               )
             }
         </div>
         <div className={s.decorImages}>
             <img className={s.decorGroup} src={decor1Url} alt="decor" />
-              
+
             <div className={s.decorGroup}>
               <img src={decor2Url} alt="decor" className={s.imgMargin} />
               <img src={decor3Url} alt="decor" />

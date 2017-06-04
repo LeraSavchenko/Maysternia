@@ -1,0 +1,51 @@
+@import '../../routes/catalog/Catalog.css';
+@import '../Header/Header.css';
+@import '../Footer/Footer.css';
+
+div {
+  margin-right: 7px;
+  margin-bottom: 7px;
+}
+
+.headerincatalog {
+  padding-left: 10%;
+}
+
+.catalog {
+  padding-left: 10%;
+  margin-bottom: 93px;
+}
+
+.button {
+  width: 200px;
+}
+
+.title {
+  width: 261px;
+  padding-right: 10px;
+}
+
+.inLine {
+  display: flex;
+}
+
+.pharagraphs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.linewithsmallphotos {
+  width: 266px;
+}
+
+.linewithbigphotos {
+  width: 405px;
+}
+
+@media screen and (max-width: 860px) {
+  .catalog {
+    overflow: auto;
+    display: flex;
+  }
+}

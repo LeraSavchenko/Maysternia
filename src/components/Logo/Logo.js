@@ -1,27 +1,18 @@
 import React from 'react';
+import withStyles from 'isomorphic-style-loader/lib/withStyles';
+import s from './Logo.css';
 
-const blockstyle = {
-  width: '100%',
-  color: 'white',
-  height: '600px',
-};
 
-const center = {
-  margin: 'auto 0',
-  textAlign: 'center',
-  paddingTop: '10%',
-};
-
-class Logo extends React.Component {
-  render() {
-    return (
-      <div style={blockstyle}>
-        <div style={center}>
+const Logo = () =>
+  (
+    <div>
+      <div className={s.blockstyle}>
+        <div className={s.center}>
           <img src="./logo.png" alt="logo.png" />
         </div>
       </div>
+    </div>
     );
-  }
-}
 
-export default(Logo);
+
+export default withStyles(s)(Logo);

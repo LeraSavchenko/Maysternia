@@ -17,7 +17,7 @@ const Links = [
     to: '/',
     name: 'Наші роботи'
   },
-]
+];
 
 class Footer extends React.Component {
   render() {
@@ -25,12 +25,12 @@ class Footer extends React.Component {
       <div className={s.root}>
         <div className={s.container}>
           <img className={s.mapImage} src={mapUrl} alt="map" />
-      
+
           <div className={s.contents}>
             <h3>Контакти</h3>
             <p>+38 066 445 59 00<br />
             <span className={s.address}>м. Мукачево, вул. Переяславська, 1</span></p>
-      
+
             {
               Links.map(elem =>
                 <Link className={s.link} to={elem.to}>
@@ -38,7 +38,7 @@ class Footer extends React.Component {
                 </Link>
               )
             }
-            
+
           </div>
         </div>
       </div>

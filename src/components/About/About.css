@@ -6,7 +6,7 @@
     display: block;
     justify-content: center;
   }
-  
+
   .aboutImage {
     max-width: 480px;
     width: 100%;
@@ -14,11 +14,11 @@
     height: auto;
     margin-top: 50px;
   }
-  
+
   .link {
     display: block;
   }
-  
+
   .underlined {
     display: inline-block;
     margin-bottom: 5px;
@@ -32,17 +32,18 @@
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    margin-bottom: 100px;
   }
-  
+
   .aboutImage {
     max-height: 530px;
     width: auto;
   }
-  
+
   .textblock {
     padding-left: 40px;
   }
-  
+
   .inline {
     display: flex;
   }

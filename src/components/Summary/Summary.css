@@ -1,0 +1,8 @@
+@import '../Navigation/Navigation.css';
+@import '../Footer/Footer.css';
+@import '../Header/Header.css';
+
+.contactButton {
+  margin: 0 auto;
+  text-align: center;
+}

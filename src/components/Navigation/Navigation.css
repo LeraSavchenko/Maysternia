@@ -1,0 +1,63 @@
+@import '../Footer/Footer.css';
+@import '../Header/Header.css';
+
+.forTagline {
+  width: 65%;
+  height: auto;
+}
+
+.withImage {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.contents {
+  padding-left: 10px;
+}
+
+.forSummary {
+  width: 35%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 4%;
+  margin-left: 20px;
+}
+
+.info {
+  display: flex;
+}
+
+.inCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.inRow {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.inRowWithoutPadding {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 860px) {
+  .forSummary {
+    display: none;
+  }
+
+  .forTagline {
+    width: 100%;
+    height: auto;
+  }
+
+  .contactButton {
+    display: block;
+    margin: 0 auto;
+  }
+}

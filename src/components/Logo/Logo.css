@@ -1,0 +1,14 @@
+
+
+.blockstyle {
+  width: 100%;
+  color: white;
+  height: 600px;
+}
+
+.center {
+  margin: auto 0;
+  text-align: center;
+  padding-top: 10%;
+}
+
