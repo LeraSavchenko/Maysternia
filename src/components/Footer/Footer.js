@@ -10,7 +10,7 @@ const Links = [
     name: 'Каталог продукції'
   },
   {
-    to: '/catalog/About',
+    to: '/',
     name: 'Про нас'
   },
   {
@@ -25,7 +25,6 @@ class Footer extends React.Component {
       <div className={s.root}>
         <div className={s.container}>
           <img className={s.mapImage} src={mapUrl} alt="map" />
-
           <div className={s.contents}>
             <h3>Контакти</h3>
             <p>+38 066 445 59 00<br />

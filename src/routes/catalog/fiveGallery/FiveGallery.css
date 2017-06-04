@@ -1,35 +1,6 @@
 @import '../../../components/variables.css';
 
-.navigation p,
-.navigation a {
-  font: 16px "Open Sans";
-  text-decoration: none;
-  margin-right: 10px;
-  margin-bottom: 20px;
-}
-
-.navigation a:hover {
-  color: darkred;
-}
-
 @media screen and (max-width: 860px) {
-  .navigation {
-    width: 100%;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .navigation p {
-    width: 100px;
-  }
-  
-  .navigation a,
-  .navigation p {
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
-  
   .decorImages img,
   .decorGroup img {
     margin-bottom: 12px; 
@@ -51,12 +22,7 @@
     display: inline-flex;
     justify-content: space-between;
   }
-  
-  .navigation {
-    width: 50%;
-    margin-left: 35%;
-    display: flex;
-  }
+
   .imgMargin {
     margin-bottom: 12px;
   }
