@@ -6,6 +6,7 @@ import About from '../../components/About/About';
 import Order from '../../components/Order/Order';
 import Header from '../../components/Header/Header';
 
+import Navigation from './navigation/Navigation';
 import FiveGallery from './fiveGallery/FiveGallery';
 import ThreeGallery from './threeGallery/ThreeGallery';
 
@@ -25,6 +26,7 @@ class Catalog extends React.Component {
             <div className={s.divider}></div>
           </div>
           
+          <Navigation />
           <FiveGallery />
             
           <div className={s.topic}>

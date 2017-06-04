@@ -10,7 +10,7 @@ const Links = [
     name: 'Каталог продукції'
   },
   {
-    to: '/catalog/About',
+    to: '/',
     name: 'Про нас'
   },
   {
@@ -23,8 +23,7 @@ class Footer extends React.Component {
   render() {
     return (
       <div className={s.root}>
-        <div className={s.container}>
-          <img className={s.mapImage} src={mapUrl} alt="map" />
+        <div className={s.container}><img className={s.mapImage} src={mapUrl} alt="map" />
       
           <div className={s.contents}>
             <h3>Контакти</h3>
